@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEEUX</title>
+    <link rel="stylesheet" href="./sass/styles.scss" />
+    <link rel="stylesheet" href="./sass/components/menu.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+
+  </head>
+  <body>
+
+
+
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+        <div class="header-inner-col left">
+          <div class="header-inner-logo">
+            <h2>AEEUX</h2>
+          </div>
+        </div>
+      </div>
+
+      
+        <!-- menu -->
+
+        <div class="container-menu">
+          <div class="menu-close">
+            <div class="menu-close-img"><img src="images/close-icon.png" alt="" /></div>
+          </div>
+          <div class="hr"></div>
+          <div class="menu">
+            <div class="menu-left">
+              <div class="menu-links">
+                <div class="menu-link">
+                  <a href="#home">Home <span>01</span></a>
+                </div>
+                <div class="menu-link">
+                  <a href="#about">About<span> 02 </span></a>
+                </div>
+                <div class="menu-link">
+                  <a href="#projects">Projects<span> 03 </span></a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-right">
+              <div class="contact">
+                <div class="mail">
+                  <div><span class="title">Contact</span><br /><br /></div>
+                  <div><span class="info">blabla@gmail.com</span><br /></div>
+                </div>
+                <div class="socials">
+                  <div><span class="title">Follow Us</span><br /><br /></div>
+                  <div><span class="info">Instagram</span><br /><br /></div>
+                  <div><span class="info">Facebook</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-open">menu</div>
+        
+        <!-- menu -->
+
+
+    </header>
+
+            
+    <div class="site-content" id="home">
+      <h1 class="site-content_headline">ANDREAS ERIKSEN</h1>
+      <p class="site-content_desc">Creative Designer & Developer</p>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-inner-banner">
+            <div class="hero-inner-col left"></div>
+            <div class="hero-inner-col right">
+              <div class="hero-inner-links" id="projects">
+                <div data-video-src="websites" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>Websites</span></a>
+                </div>
+                <div data-video-src="apps" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>Apps</span></a>
+                </div>
+                <div data-video-src="branding" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>Branding</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-inner-footer">
+          <div class="hero-inner-footer-text" id="about">
+            <p>
+              Leading digital agency with solid design and development 
+              expertise. We build readymade websites, mobile applications, and
+              elaborate online business services.
+              Leading digital agency with solid design and development
+              expertise. We build readymade websites, mobile applications, and
+              elaborate online business services.
+              Leading digital agency with solid design and development
+              expertise. We build readymade websites, mobile applications, and
+              elaborate online business services.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cursor -->
+
+    <div class="cursor">
+      <div class="cursor-media">
+        <video src="videos/websites.mp4" preload="auto" autoplay muted loop id="websites">
+          
+        </video>
+        <video src="videos/apps.mp4" preload="auto" autoplay muted loop id="apps">
+          
+        </video>
+        <video src="videos/branding.mp4" preload="auto" autoplay muted loop id="branding">
+          
+        </video>
+      </div>
+    </div>
+
+  </body>
+  <script src="js/index.js"></script>
+  <script src="js/menu.js"></script>
+</html>

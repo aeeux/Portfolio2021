@@ -1,0 +1,45 @@
+.cursor{
+    position: fixed;
+    top: 0;
+    left: 0;
+    contain: layout style size;
+    pointer-events: none;
+
+    &.media-blend {
+        mix-blend-mode: exclusion;
+            .cursor-media {
+                filter: invert(1);
+            }
+    }
+
+    &::before {
+        content: "";
+        position: absolute;
+        top: -24px;
+        left: -24px;
+        display: block;
+        width: 24px;
+        height: 24px;
+        transform: scale(0.2);
+        background: black;
+        border-radius: 50%;
+    }
+
+    .cursor-media {
+        display: block;
+        height: 350px;
+        width: 350px;
+        overflow: hidden;
+        border-radius: 100%;
+        transform: scale(0);
+        margin: -175px 0 0 -175px;
+        position: relative;
+
+        video{
+            height: 350px;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+        }
+    }
+}

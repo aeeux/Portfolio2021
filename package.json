@@ -1,0 +1,19 @@
+{
+  "name": "portfolio2021",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "sass": "^1.26.11"
+  },
+  "dependencies": {
+    "gsap": "^3.5.1"
+  },
+  "repository": "https://github.com/aeeux/Portfolio2021.git",
+  "author": "aeeux <andreaseriksen99@hotmail.com>"
+}

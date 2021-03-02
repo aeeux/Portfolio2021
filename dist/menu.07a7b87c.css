@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100vh;
+  font-family: "Bridge Head Con Medium";
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Bridge Head Con Medium";
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bd-grid {
+  max-width: 1024px;
+  display: grid;
+  grid-template-columns: 100%;
+  grid-column-gap: 2rem;
+  width: calc(100% - 2rem);
+  margin-left: var(--mb-2);
+  margin-right: var(--mb-2);
+}
+
+.menu {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.hr {
+  position: fixed;
+  left: 50%;
+  width: 3px;
+  height: 100vh;
+  background-color: #fff;
+  z-index: 11;
+  transform: scaleY(0);
+}
+
+.menu-left,
+.menu-right {
+  position: fixed;
+  width: 50%;
+  height: 100vh;
+  background: #000;
+  color: #a82020;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+
+.menu-left {
+  left: -50%;
+}
+
+.menu-right {
+  right: -50%;
+}
+
+.menu-link a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 100px;
+}
+.menu-link a span {
+  font-family: "Poppins";
+  font-size: 24px;
+  z-index: 11;
+}
+.menu-link:first-child a::before {
+  display: block;
+  position: relative;
+  content: "";
+  background-image: url("/brush-stroke.906cf266.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  top: 80px;
+  left: 0;
+  height: 40px;
+  width: 240px;
+  z-index: 11;
+}
+
+.contact .title {
+  font-size: 80px;
+}
+.contact .info {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+}
+
+.mail {
+  margin-bottom: 60px;
+}
+
+.menu-close {
+  z-index: 2;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  cursor: pointer;
+  opacity: 1;
+}
+
+.menu-close-img {
+  width: 140px;
+  height: 140px;
+  border-radius: 100%;
+  border: 10px solid #000;
+}
+
+img {
+  width: 100%;
+}
+
+.menu-open {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 2rem;
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+}
+
+@media (max-width: 900px) {
+  .menu-right {
+    display: none;
+  }
+
+  .menu-left {
+    width: 100%;
+  }
+
+  .menu-close {
+    position: fixed;
+    top: 10%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    margin: 40px;
+  }
+
+  .hr {
+    display: none;
+  }
+
+  img {
+    width: 40%;
+  }
+}
+
+/*# sourceMappingURL=/menu.07a7b87c.css.map */
