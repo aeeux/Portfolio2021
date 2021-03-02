@@ -94,6 +94,6 @@ $(document).on("click", ".menu-close", function () {
 
 $(document).on("click", ".menu-link", function () {
   tl.reversed(!tl.reversed());
-  setTimeout(function(){  $('.hero-inner').css('visibility', 'visible');  }, 900);
+  setTimeout(function(){  $('.hero-inner, .menu-open, .menu-close').css('visibility', 'visible');  }, 900);
   $('body').css('overflow', 'scroll');
 });

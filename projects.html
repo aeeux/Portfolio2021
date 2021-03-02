@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AEEUX</title>
+    <link rel="stylesheet" href="./sass/styles.scss" />
+    <link rel="stylesheet" href="./sass/components/menu.css" />
+
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/2.0.2/TweenMax.min.js"></script>
+    <script src="https://unpkg.com/ionicons@5.4.0/dist/ionicons.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js" 
+    integrity="sha512-IQLehpLoVS4fNzl7IfH8Iowfm5+RiMGtHykgZJl9AWMgqx0AmJ6cRWcB+GaGVtIsnC4voMfm8f2vwtY+6oPjpQ==" crossorigin="anonymous">
+    </script> 
+
+</head>
+<body>
+
+
+
+    <!-- Header -->
+    <header>
+      <div class="header-inner">
+        <div class="header-inner-col left">
+          <div class="header-inner-logo">
+            <a href="index.html" class="header-inner-logo">AEEUX</a>
+          </div>
+        </div>
+      </div>
+
+      
+        <!-- menu -->
+
+        <div class="container-menu">
+          <div class="menu-close">
+            <div class="menu-close-img"><img src="images/close-icon.png" alt="" /></div>
+          </div>
+          <div class="hr"></div>
+          <div class="menu">
+            <div class="menu-left">
+              <div class="menu-links">
+                <div class="menu-link">
+                  <a href="index.html#home">Home <span>01</span></a>
+                </div>
+                <div class="menu-link">
+                  <a href="index.html#about">About<span> 02 </span></a>
+                </div>
+                <div class="menu-link">
+                  <a href="projects.html">Projects<span> 03 </span></a>
+                </div>
+              </div>
+            </div>
+            <div class="menu-right">
+              <div class="contact">
+                <div class="mail">
+                  <div><span class="title">Contact</span><br /><br /></div>
+                  <div><span class="info">blabla@gmail.com</span><br /></div>
+                </div>
+                <div class="socials">
+                  <div><span class="title">Follow Us</span><br /><br /></div>
+                  <div><span class="info">Instagram</span><br /><br /></div>
+                  <div><span class="info">Facebook</span></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="menu-open">menu</div>
+        
+        <!-- menu -->
+
+    </header>
+
+    <div class="overlay">
+        <h1>AEEUX.TECH</h1>
+    </div>
+
+            
+    <div class="site-content" id="home">
+      <h1 class="site-content_headline">P R O J E C T S</h1>
+      <p class="site-content_desc">The collection.</p>
+    </div>
+
+    <section class="hero">
+      <div class="container">
+        <div class="hero-inner">
+          <div class="hero-inner-banner">
+            <div class="hero-inner-col left"></div>
+            <div class="hero-inner-col right">
+              <div class="hero-inner-links">
+                <div data-video-src="websites" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>Websites</span></a>
+                </div>
+                <div data-video-src="apps" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>Apps</span></a>
+                </div>
+                <div data-video-src="branding" class="hero-inner-link-item">
+                  <div class="hero-inner-link-item-padding"></div>
+                  <a href="/"> <span>Branding</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="hero-inner-footer">
+          <div class="hero-inner-footer-text" id="about">
+            <p>
+              I develop online solutions aswell as
+              creating extraordinary digital identities for businesses.
+              <br><br>
+              Frameworks:
+              <br>
+              ReactJS & VueJS
+              <br><br>
+              Languages:
+              <br>
+              HTML5, CSS3, SCSS, Javascript & Typescript
+              <br><br>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- cursor -->
+
+    <div class="cursor">
+      <div class="cursor-media">
+        <video src="videos/websites.mp4" preload="auto" autoplay muted loop id="websites">
+          
+        </video>
+        <video src="videos/apps.mp4" preload="auto" autoplay muted loop id="apps">
+          
+        </video>
+        <video src="videos/branding.mp4" preload="auto" autoplay muted loop id="branding">
+          
+        </video>
+      </div>
+    </div>
+
+  </body>
+  <script src="js/gsap.js"></script>
+  <script src="js/index.js"></script>
+  <script src="js/menu.js"></script>
+</html>
