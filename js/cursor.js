@@ -42,6 +42,7 @@ export default class Cursor {
     // Loop through all items
     this.Item.forEach((link) => {
       // If I am hovering on the item for on page load I want to scale the cursor media
+
       if (link.matches(":hover")) {
         this.setVideo(link);
         this.ScaleCursor(this.Cursor.children[0], 0.8);

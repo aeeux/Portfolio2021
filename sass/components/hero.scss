@@ -1,31 +1,18 @@
 
+
 .site-content_headline {
 	max-width: 1100px;
 	height: 100vh;
-  margin-top: -3rem;
+  margin-top: -50rem;
 	margin-left: auto;
 	margin-right: auto;
+  margin-bottom: 20rem;
 	display: flex;
 	align-items: center;
 	justify-content: center;
   font-weight: 200;
   color: #303030;
   font-size: calc(2vw + 25px);
-}
-
-.site-content_desc{
-	max-width: 1100px;
-  margin-top: -430px;
-	margin-left: auto;
-	margin-right: auto;
-  margin-bottom: 10rem;
-  display: flex;
-	align-items: center;
-	justify-content: center;
-  font-weight: 200;
-  color: #ff0000;
-  border-radius: 10px;
-  font-size: calc(2vw + 10px);
 }
 
 .hero {
@@ -65,7 +52,6 @@
         &.right {
         }
         .hero-inner-title {
-          position: relative;
           h1 {
             margin: 0;
             font-weight: 400;
@@ -77,9 +63,7 @@
         .hero-inner-links {
           display: flex;
           .hero-inner-link-item {
-            position: relative;
             .hero-inner-link-item-padding {
-              position: relative;
               &:before {
                 content: "";
                 display: block;
@@ -94,7 +78,6 @@
               margin-top: -370px;
               margin-left: auto;
               margin-right: auto;
-              display: inline-block;
               align-items: center;
               justify-content: center;
               font-weight: 200;
@@ -102,8 +85,6 @@
               border-radius: 10px;
               font-size: calc(2vw + 20px);
               padding: 12px 22px;
-              position: relative;
-              overflow: hidden;
               text-decoration: none;
               color: transparent;
               transition: color 0.3s, -webkit-text-stroke 0.3s;
@@ -134,6 +115,11 @@
       }
     }
     .hero-inner-footer {
+      height: 100%;
+      width: 100%;
+      margin-left:  auto;
+      margin-right: auto;
+      background-color: #fafafa;
       .hero-inner-footer-text {
         p {
           max-width: 1100px;
@@ -151,4 +137,24 @@
       }
     }
   }
+
+  .frameworks-section {
+    .frameworks-text {
+      p {
+        max-width: 1100px;
+        margin-top: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: 200;
+        color: #303030;
+        border-radius: 10px;
+        font-size: calc(2vw + 20px);
+      }
+    }
+  }
+
 }

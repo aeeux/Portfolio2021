@@ -153,15 +153,6 @@ tl.to(".hr", 0.4, {
 tl.reverse();
 $(document).on("click", ".menu-open", function () {
   tl.reversed(!tl.reversed());
-  var closed = $('body').css('overflow') === 'hidden';
-
-  if (closed) {
-    $('.hero-inner').css('visibility', 'visible');
-    $('body').css('overflow', 'scroll');
-  } else {
-    $('.hero-inner').css('visibility', 'hidden');
-    $('body').css('overflow', 'hidden');
-  }
 });
 $(document).on("click", ".menu-close", function () {
   tl.reversed(!tl.reversed());
@@ -202,7 +193,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "59308" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "55959" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

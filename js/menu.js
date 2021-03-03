@@ -68,23 +68,6 @@ tl.to(
 tl.reverse();
 $(document).on("click", ".menu-open", function () {
   tl.reversed(!tl.reversed());
-
-  let closed = $('body').css('overflow') === 'hidden';
-
-  if (closed) {
-
-    $('.hero-inner').css('visibility', 'visible');
-    $('body').css('overflow', 'scroll') ;
-
-  } 
-  
-  else {
-
-    $('.hero-inner').css('visibility', 'hidden');
-    $('body').css('overflow', 'hidden');
-
-  }
-
 });
 
 $(document).on("click", ".menu-close", function () {
