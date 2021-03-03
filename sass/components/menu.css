@@ -51,7 +51,7 @@ body {
 	position: fixed;
 	width: 50%;
 	height: 100vh;
-	background: rgb(167, 28, 28);
+	background: #a71c1c;
 	color: #fff;
 	display: flex;
 	justify-content: center;
@@ -137,6 +137,42 @@ img {
 	color: #000;
 }
 
+.seperator {
+	height: 2px;
+	margin-bottom: 30rem;
+}
+
+.about {
+	background: url(/images/hero.jpg);
+	width: 100%;
+	height: 100vh;
+	margin-top: 0px;
+	margin-left: auto;
+	margin-right: auto;
+	display: flex;
+}
+
+.about-text {
+	color: #fafafa;
+	align-items: center;
+	justify-content: center;
+	font-weight: 200;
+	border-radius: 10px;
+}
+
+.about-text h2 {
+	font-weight: lighter;
+	color: #fff88f;
+	font-size: calc(3vw + 20px);
+	grid-column: var(--mb-2);
+}
+
+.about-text p {
+	font-weight: lighter;
+	font-size: calc(1vw + 10px);
+	grid-row: var(--mb-2);
+}
+
 
 /* overlay loader */
 
@@ -145,7 +181,7 @@ img {
 	position: fixed;
 	width: 100%;
 	height: 100%;
-	background: #a71c1c;
+	background: #a71c1cfd;
 	top: 0%;
 	color: #fafafa;
   }
