@@ -31,12 +31,6 @@ body {
 
 /* Over and Under */
 
-.canvas {
-	display: block;
-	width: 100vw;
-	height: 100vh;
-  }
-
 #over {
 	width: 600px;
 	z-index: 10;
@@ -141,14 +135,23 @@ img {
 	width: 100%;
 }
 
+/*	top: 60px;
+left: 60px;
+right: 60px; */
+
 .menu-open {
 	position: fixed;
-	top: 0;
-	right: 0;
-	padding: 2rem;
+	top: 45px;
+	right: 60px;
+	padding: 1rem;
 	cursor: pointer;
 	font-size: 20px;
-	color: #000;
+	font-weight: bolder;
+	color: #818181;
+
+	border: 2px solid;
+	border-radius: 5px;
+
 	z-index: 11;
 }
 
@@ -163,7 +166,6 @@ img {
 }
 
 .about {
-	background: url(/hero.0f0b5fd4.jpg);
 	width: auto;
 	height: 100vh;
 	margin-top: 0px;

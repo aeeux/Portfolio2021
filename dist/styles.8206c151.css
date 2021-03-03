@@ -31,12 +31,6 @@ body {
 
 /* Over and Under */
 
-.canvas {
-	display: block;
-	width: 100vw;
-	height: 100vh;
-  }
-
 #over {
 	width: 600px;
 	z-index: 10;
@@ -141,14 +135,23 @@ img {
 	width: 100%;
 }
 
+/*	top: 60px;
+left: 60px;
+right: 60px; */
+
 .menu-open {
 	position: fixed;
-	top: 0;
-	right: 0;
-	padding: 2rem;
+	top: 45px;
+	right: 60px;
+	padding: 1rem;
 	cursor: pointer;
 	font-size: 20px;
-	color: #000;
+	font-weight: bolder;
+	color: #818181;
+
+	border: 2px solid;
+	border-radius: 5px;
+
 	z-index: 11;
 }
 
@@ -163,7 +166,6 @@ img {
 }
 
 .about {
-	background: url(/hero.0f0b5fd4.jpg);
 	width: auto;
 	height: 100vh;
 	margin-top: 0px;
@@ -257,6 +259,7 @@ header {
   top: 60px;
   left: 60px;
   right: 60px;
+  z-index: 11;
 }
 header .header-inner {
   display: flex;
@@ -273,7 +276,7 @@ header .header-inner .header-inner-col .header-inner-logo a {
   margin: 0;
   font-size: 1.5rem;
   text-decoration: none;
-  color: black;
+  color: #818181;
   font-weight: bolder;
 }
 header .header-inner .header-inner-col .header-inner-nav {
@@ -309,19 +312,32 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   margin: 5px 0;
 }
 
+.site-content-name {
+  max-width: 1100px;
+  height: 100vh;
+  margin-top: -10rem;
+  margin-left: 3rem;
+  margin-right: auto;
+  margin-bottom: -54rem;
+  display: flex;
+  align-items: center;
+  font-weight: 200;
+  color: #dadada;
+  font-size: calc(1vw + 5px);
+}
+
 .site-content_headline {
   max-width: 1100px;
   height: 100vh;
-  margin-top: -50rem;
+  margin-top: 1rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: 20rem;
+  margin-bottom: -26rem;
   display: flex;
   align-items: center;
-  justify-content: center;
   font-weight: 200;
-  color: #303030;
-  font-size: calc(2vw + 25px);
+  color: #948a8a;
+  font-size: calc(2vw + 50px);
 }
 
 .hero {
@@ -381,35 +397,36 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   }
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links {
+  position: absolute;
   display: flex;
+  max-width: 0px;
+  margin-top: -25rem;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 10rem;
+  text-align: center;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item .hero-inner-link-item-padding:before {
   content: "";
   display: block;
   top: -30vh;
-  bottom: -30vh;
   left: 0;
   right: 0;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a {
-  max-width: 1100px;
-  margin-top: -370px;
-  margin-left: auto;
-  margin-right: auto;
   align-items: center;
   justify-content: center;
-  font-weight: 200;
+  font-weight: lighter;
   color: #303030;
-  border-radius: 10px;
   font-size: calc(2vw + 20px);
-  padding: 12px 22px;
+  padding: 30px 30px;
   text-decoration: none;
   color: transparent;
   transition: color 0.3s, -webkit-text-stroke 0.3s;
-  -webkit-text-stroke: 1px #000;
+  -webkit-text-stroke: 1px #303030;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a:hover {
-  color: black;
+  color: #303030;
   -webkit-text-stroke: 1px transparent;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a span {
@@ -427,11 +444,6 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
 .hero .container .hero-inner-footer {
   margin-left: -300px;
   margin-right: -300px;
-  background: url(/hero.0f0b5fd4.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
 }
 .hero .container .hero-inner-footer .hero-inner-footer-text p {
   max-width: 1100px;
@@ -445,6 +457,18 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   color: #fafafa;
   border-radius: 10px;
   font-size: calc(2vw + 20px);
+}
+.hero .darkmode {
+  position: relative;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: url(/hero.0f0b5fd4.jpg) no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .hero .frameworks-section .frameworks-text p {
   max-width: 1100px;

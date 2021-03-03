@@ -1,18 +1,31 @@
 
+.site-content-name {
+	max-width: 1100px;
+	height: 100vh;
+  margin-top: -10rem;
+	margin-left: 3rem;
+	margin-right: auto;
+  margin-bottom: -54rem;
+	display: flex;
+	align-items: center;
+  font-weight: 200;
+  color: #dadada;
+  font-size: calc(1vw + 5px);
+}
+
 
 .site-content_headline {
 	max-width: 1100px;
 	height: 100vh;
-  margin-top: -50rem;
+  margin-top: 1rem;
 	margin-left: auto;
 	margin-right: auto;
-  margin-bottom: 20rem;
+  margin-bottom: -26rem;
 	display: flex;
 	align-items: center;
-	justify-content: center;
   font-weight: 200;
-  color: #303030;
-  font-size: calc(2vw + 25px);
+  color: #948a8a;
+  font-size: calc(2vw + 50px);
 }
 
 .hero {
@@ -61,36 +74,37 @@
           }
         }
         .hero-inner-links {
+          position: absolute;
           display: flex;
+          max-width: 0px;
+          margin-top: -25rem;
+          margin-left: auto;
+          margin-right: auto;
+          margin-bottom: 10rem;
+          text-align: center;
           .hero-inner-link-item {
             .hero-inner-link-item-padding {
               &:before {
                 content: "";
                 display: block;
                 top: -30vh;
-                bottom: -30vh;
                 left: 0;
                 right: 0;
               }
             }
             a {
-              max-width: 1100px;
-              margin-top: -370px;
-              margin-left: auto;
-              margin-right: auto;
               align-items: center;
               justify-content: center;
-              font-weight: 200;
+              font-weight: lighter;
               color: #303030;
-              border-radius: 10px;
               font-size: calc(2vw + 20px);
-              padding: 12px 22px;
+              padding: 30px 30px;
               text-decoration: none;
               color: transparent;
               transition: color 0.3s, -webkit-text-stroke 0.3s;
-              -webkit-text-stroke: 1px #000;
+              -webkit-text-stroke: 1px #303030;
               &:hover {
-                color: black;
+                color: #303030;
                 -webkit-text-stroke: 1px transparent;
               }
               span {
@@ -117,11 +131,6 @@
     .hero-inner-footer {
       margin-left:  -300px;
       margin-right: -300px;
-      background: url(/images/hero.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
       .hero-inner-footer-text {
         p {
           max-width: 1100px;
@@ -138,6 +147,19 @@
         }
       }
     }
+  }
+
+  .darkmode {
+    position: relative; 
+    top: -50%; 
+    left: -50%; 
+    width: 200%; 
+    height: 200%;
+    background: url(/images/hero.jpg) no-repeat; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
   }
 
   .frameworks-section {
