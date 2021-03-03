@@ -31,6 +31,12 @@ body {
 
 /* Over and Under */
 
+.canvas {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+  }
+
 #over {
 	width: 600px;
 	z-index: 10;

@@ -115,11 +115,13 @@
       }
     }
     .hero-inner-footer {
-      height: 100%;
-      width: 100%;
-      margin-left:  auto;
-      margin-right: auto;
-      background-color: #fafafa;
+      margin-left:  -300px;
+      margin-right: -300px;
+      background: url(/images/hero.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
       .hero-inner-footer-text {
         p {
           max-width: 1100px;
@@ -130,7 +132,7 @@
           align-items: center;
           justify-content: center;
           font-weight: 200;
-          color: #303030;
+          color: #fafafa;
           border-radius: 10px;
           font-size: calc(2vw + 20px);
         }

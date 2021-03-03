@@ -31,6 +31,12 @@ body {
 
 /* Over and Under */
 
+.canvas {
+	display: block;
+	width: 100vw;
+	height: 100vh;
+  }
+
 #over {
 	width: 600px;
 	z-index: 10;
@@ -419,11 +425,13 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   padding-right: 0;
 }
 .hero .container .hero-inner-footer {
-  height: 100%;
-  width: 100%;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #fafafa;
+  margin-left: -300px;
+  margin-right: -300px;
+  background: url(/hero.0f0b5fd4.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 .hero .container .hero-inner-footer .hero-inner-footer-text p {
   max-width: 1100px;
@@ -434,7 +442,7 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   align-items: center;
   justify-content: center;
   font-weight: 200;
-  color: #303030;
+  color: #fafafa;
   border-radius: 10px;
   font-size: calc(2vw + 20px);
 }
