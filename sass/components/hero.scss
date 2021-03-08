@@ -1,13 +1,14 @@
 
+
 .site-content-name {
 	max-width: 1100px;
 	height: 100vh;
   margin-top: -10rem;
-	margin-left: 3rem;
-	margin-right: auto;
-  margin-bottom: -51rem;
+	margin-left: auto;
+	margin-right: auto;  
+  margin-bottom: -41rem;
 	display: flex;
-	align-items: center;
+  align-items: center;
   font-weight: 200;
   color: #dadada;
   font-size: calc(1vw + 5px);
@@ -17,15 +18,15 @@
 .site-content_headline {
 	max-width: 1100px;
 	height: 100vh;
-  margin-top: 1rem;
+  margin-top: 17rem;
 	margin-left: auto;
 	margin-right: auto;
-  margin-bottom: -26rem;
+  margin-bottom: -30rem;
 	display: flex;
-	align-items: center;
+  text-align: center;
   font-weight: 200;
   color: #948a8a;
-  font-size: calc(2vw + 50px);
+  font-size: calc(2vw + 30px);
 }
 
 .hero {
@@ -75,13 +76,11 @@
         }
         .hero-inner-links {
           position: absolute;
-          display: flex;
           max-width: 0px;
-          margin-top: -25rem;
+          margin-top: -38rem;
           margin-left: auto;
           margin-right: auto;
           margin-bottom: 10rem;
-          text-align: center;
           .hero-inner-link-item {
             .hero-inner-link-item-padding {
               &:before {
@@ -129,8 +128,8 @@
       }
     }
     .hero-inner-footer {
-      margin-left:  -300px;
-      margin-right: -300px;
+      margin-left:  auto;
+      margin-right: auto;
       .hero-inner-footer-text {
         p {
           max-width: 1100px;
@@ -143,7 +142,7 @@
           font-weight: 200;
           color: #fafafa;
           border-radius: 10px;
-          font-size: calc(2vw + 20px);
+          font-size: calc(1vw + 10px);
         }
       }
     }
@@ -151,10 +150,9 @@
 
   .darkmode {
     position: relative; 
-    top: -50%; 
-    left: -50%; 
-    width: 200%; 
-    height: 200%;
+    top: -50%;
+    width: 100%;
+    height: 100%;
     background: url(/images/hero.jpg) no-repeat; 
     -webkit-background-size: cover;
     -moz-background-size: cover;

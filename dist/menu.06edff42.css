@@ -37,6 +37,8 @@ body {
 	position: relative;    
   }
 
+/* menu */
+
 .menu {
 	position: relative;
 	display: flex;
@@ -135,17 +137,13 @@ img {
 	width: 100%;
 }
 
-/*	top: 60px;
-left: 60px;
-right: 60px; */
-
 .menu-open {
 	position: fixed;
 	top: 45px;
-	right: 60px;
-	padding: 1rem;
+	right: 500px;
+	padding: .3rem;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 10px;
 	font-weight: bolder;
 	color: #818181;
 

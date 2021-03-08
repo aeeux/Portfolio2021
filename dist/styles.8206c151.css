@@ -37,6 +37,8 @@ body {
 	position: relative;    
   }
 
+/* menu */
+
 .menu {
 	position: relative;
 	display: flex;
@@ -135,17 +137,13 @@ img {
 	width: 100%;
 }
 
-/*	top: 60px;
-left: 60px;
-right: 60px; */
-
 .menu-open {
 	position: fixed;
 	top: 45px;
-	right: 60px;
-	padding: 1rem;
+	right: 500px;
+	padding: .3rem;
 	cursor: pointer;
-	font-size: 20px;
+	font-size: 10px;
 	font-weight: bolder;
 	color: #818181;
 
@@ -317,9 +315,9 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   max-width: 1100px;
   height: 100vh;
   margin-top: -10rem;
-  margin-left: 3rem;
+  margin-left: auto;
   margin-right: auto;
-  margin-bottom: -51rem;
+  margin-bottom: -41rem;
   display: flex;
   align-items: center;
   font-weight: 200;
@@ -330,15 +328,15 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
 .site-content_headline {
   max-width: 1100px;
   height: 100vh;
-  margin-top: 1rem;
+  margin-top: 17rem;
   margin-left: auto;
   margin-right: auto;
-  margin-bottom: -26rem;
+  margin-bottom: -30rem;
   display: flex;
-  align-items: center;
+  text-align: center;
   font-weight: 200;
   color: #948a8a;
-  font-size: calc(2vw + 50px);
+  font-size: calc(2vw + 30px);
 }
 
 .hero {
@@ -399,13 +397,11 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links {
   position: absolute;
-  display: flex;
   max-width: 0px;
-  margin-top: -25rem;
+  margin-top: -38rem;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 10rem;
-  text-align: center;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item .hero-inner-link-item-padding:before {
   content: "";
@@ -443,8 +439,8 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   padding-right: 0;
 }
 .hero .container .hero-inner-footer {
-  margin-left: -300px;
-  margin-right: -300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 .hero .container .hero-inner-footer .hero-inner-footer-text p {
   max-width: 1100px;
@@ -457,14 +453,13 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   font-weight: 200;
   color: #fafafa;
   border-radius: 10px;
-  font-size: calc(2vw + 20px);
+  font-size: calc(1vw + 10px);
 }
 .hero .darkmode {
   position: relative;
   top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
+  width: 100%;
+  height: 100%;
   background: url(/hero.0f0b5fd4.jpg) no-repeat;
   -webkit-background-size: cover;
   -moz-background-size: cover;
