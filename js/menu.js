@@ -8,9 +8,7 @@ tl.to(".menu-left", 1, {
 });
 
 tl.to(
-  ".menu-right",
-  1,
-  {
+  ".menu-right", 1, {
     right: 0,
     ease: Expo.easeInOut,
   },
