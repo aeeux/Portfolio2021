@@ -6,7 +6,7 @@ let mouse = { x: 0, y: 0 };
 window.addEventListener("mousemove", (ev) => (mouse = getMousePos(ev)));
 export default class Cursor {
   constructor(el) {
-    // Variables
+    // Varibles
     this.Cursor = el;
     this.Cursor.style.opacity = 0;
     this.Item = document.querySelectorAll(".hero-inner-link-item");
@@ -42,7 +42,6 @@ export default class Cursor {
     // Loop through all items
     this.Item.forEach((link) => {
       // If I am hovering on the item for on page load I want to scale the cursor media
-
       if (link.matches(":hover")) {
         this.setVideo(link);
         this.ScaleCursor(this.Cursor.children[0], 0.8);
@@ -76,7 +75,7 @@ export default class Cursor {
     let siblings = getSiblings(video);
 
     if (video.id == src) {
-      gsap.set(video, { zIndex: 1, opacity: 1 });
+      gsap.set(video, { zIndex: 4, opacity: 1 });
       siblings.forEach((i) => {
         gsap.set(i, { zIndex: 1, opacity: 0 });
       });
@@ -97,6 +96,7 @@ export default class Cursor {
     // lerp
     for (const key in this.cursorConfigs) {
       // key will be x & y
+      // WTF IS LERP?
       // Lerp - A lerp returns the value between two numbers at a specified, decimal midpoint:
       this.cursorConfigs[key].previous = lerp(
         this.cursorConfigs[key].previous,

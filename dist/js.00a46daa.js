@@ -5622,7 +5622,7 @@ var Cursor = /*#__PURE__*/function () {
 
     _classCallCheck(this, Cursor);
 
-    // Variables
+    // Varibles
     this.Cursor = el;
     this.Cursor.style.opacity = 0;
     this.Item = document.querySelectorAll(".hero-inner-link-item");
@@ -5714,7 +5714,7 @@ var Cursor = /*#__PURE__*/function () {
 
       if (video.id == src) {
         _gsap.gsap.set(video, {
-          zIndex: 1,
+          zIndex: 4,
           opacity: 1
         });
 
@@ -5745,6 +5745,7 @@ var Cursor = /*#__PURE__*/function () {
 
       for (var key in this.cursorConfigs) {
         // key will be x & y
+        // WTF IS LERP?
         // Lerp - A lerp returns the value between two numbers at a specified, decimal midpoint:
         this.cursorConfigs[key].previous = (0, _utils.lerp)(this.cursorConfigs[key].previous, this.cursorConfigs[key].current, this.cursorConfigs[key].amt);
       } // Setting the cursor x and y to our cursoer html element
