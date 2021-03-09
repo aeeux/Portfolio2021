@@ -261,6 +261,10 @@ img {
 	.nomobile {
 		display:none;
 	}
+
+	.menu-close-img {
+		display: none;
+	}
 }
 
 /*# sourceMappingURL=/menu.06edff42.css.map */

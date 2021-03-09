@@ -261,6 +261,10 @@ img {
 	.nomobile {
 		display:none;
 	}
+
+	.menu-close-img {
+		display: none;
+	}
 }
 header {
   position: fixed;
@@ -414,9 +418,11 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   margin-bottom: 10rem;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item .hero-inner-link-item-padding:before {
+  position: absolute;
   content: "";
   display: block;
   top: -30vh;
+  bottom: -30vh;
   left: 0;
   right: 0;
 }
@@ -424,16 +430,16 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   align-items: center;
   justify-content: center;
   font-weight: lighter;
-  color: #303030;
+  color: #ffffff;
   font-size: calc(2vw + 20px);
-  padding: 30px 30px;
+  padding: 12px 20px;
   text-decoration: none;
   color: transparent;
   transition: color 0.3s, -webkit-text-stroke 0.3s;
-  -webkit-text-stroke: 1px #303030;
+  -webkit-text-stroke: 1px #000000;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a:hover {
-  color: #303030;
+  color: #ff0000;
   -webkit-text-stroke: 1px transparent;
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links .hero-inner-link-item a span {

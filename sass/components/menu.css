@@ -261,4 +261,8 @@ img {
 	.nomobile {
 		display:none;
 	}
+
+	.menu-close-img {
+		display: none;
+	}
 }
