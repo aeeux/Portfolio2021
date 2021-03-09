@@ -1,7 +1,7 @@
 header {
   position: fixed;
-  top: 60px;
-  left: 60px;
+  top: 40px;
+  left: 40px;
   right: 60px;
   z-index: 11;
   .header-inner {
@@ -18,9 +18,9 @@ header {
         a {
           line-height: 1;
           margin: 0;
-          font-size: 1.5rem;
+          font-size: 1rem;
           text-decoration: none;
-          color: #818181;
+          color: #ff0000;
           font-weight: bolder;
         }
       }

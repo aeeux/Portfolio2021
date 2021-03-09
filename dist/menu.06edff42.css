@@ -139,13 +139,13 @@ img {
 
 .menu-open {
 	position: fixed;
-	top: 45px;
-	right: 500px;
+	top: 40px;
+	right: 40px;
 	padding: .3rem;
 	cursor: pointer;
 	font-size: 10px;
 	font-weight: bolder;
-	color: #818181;
+	color: #ff0000;
 
 	border: 2px solid;
 	border-radius: 5px;
@@ -251,6 +251,15 @@ img {
 
 	img {
 		width: 40%;
+	}
+}
+
+/* No mobile query */
+
+@media screen and (max-width: 480px) {
+
+	.nomobile {
+		display:none;
 	}
 }
 

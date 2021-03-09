@@ -139,13 +139,13 @@ img {
 
 .menu-open {
 	position: fixed;
-	top: 45px;
-	right: 500px;
+	top: 40px;
+	right: 40px;
 	padding: .3rem;
 	cursor: pointer;
 	font-size: 10px;
 	font-weight: bolder;
-	color: #818181;
+	color: #ff0000;
 
 	border: 2px solid;
 	border-radius: 5px;
@@ -253,10 +253,19 @@ img {
 		width: 40%;
 	}
 }
+
+/* No mobile query */
+
+@media screen and (max-width: 480px) {
+
+	.nomobile {
+		display:none;
+	}
+}
 header {
   position: fixed;
-  top: 60px;
-  left: 60px;
+  top: 40px;
+  left: 40px;
   right: 60px;
   z-index: 11;
 }
@@ -273,9 +282,9 @@ header .header-inner .header-inner-col .header-inner-logo h2 {
 header .header-inner .header-inner-col .header-inner-logo a {
   line-height: 1;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 1rem;
   text-decoration: none;
-  color: #818181;
+  color: #ff0000;
   font-weight: bolder;
 }
 header .header-inner .header-inner-col .header-inner-nav {
@@ -396,6 +405,7 @@ header .header-inner .header-inner-col .header-inner-nav .header-inner-nav-menu 
   }
 }
 .hero .container .hero-inner .hero-inner-col .hero-inner-links {
+  display: flex;
   position: absolute;
   max-width: 0px;
   margin-top: -38rem;
