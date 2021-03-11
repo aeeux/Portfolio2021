@@ -2,7 +2,8 @@
 :root{
 	--offgrey: #e0e0e0;
 	--black: #181818;
-	--offyellow: #e7dfb0;
+	--beige: #eae1d4;
+	--offgreen: #1f2820;
 }
 
 .site-content-name {
@@ -14,7 +15,7 @@
 	display: flex;
   align-items: center;
   font-weight: 200;
-  color: #dadada;
+  color: var(--offgreen);
   font-size: calc(1vw + 5px);
 }
 
@@ -28,12 +29,12 @@
 	display: flex;
   text-align: center;
   font-weight: 200;
-  color: #948a8a;
+  color: var(--offgreen);
   font-size: calc(2vw + 30px);
 }
 
 .hero {
-  background-color: #111111;
+  background-color: var(--black);
   .container {
     @media (min-width: 360px) {
       padding: 0 30px;
@@ -106,7 +107,7 @@
               text-decoration: none;
               color: transparent;
               transition: color 0.3s, -webkit-text-stroke 0.3s;
-              -webkit-text-stroke: 1px var(--offyellow);
+              -webkit-text-stroke: 1px var(--beige);
               &:hover {
                 color: #fafafa;
                 -webkit-text-stroke: 1px transparent;
@@ -144,7 +145,7 @@
           align-items: center;
           justify-content: center;
           font-weight: 200;
-          color: #fafafa;
+          color: var(--beige);
           font-size: calc(2vw + 20px);
         }
       }

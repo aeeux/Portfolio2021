@@ -3,7 +3,8 @@
 :root{
 	--offgrey: #e0e0e0;
 	--black: #181818;
-	--offyellow: #e7dfb0;
+	--beige: #eae1d4;
+	--offgreen: #1f2820;
 }
 
 header {
@@ -28,7 +29,7 @@ header {
           margin: 0;
           font-size: 1rem;
           text-decoration: none;
-          color: var(--offyellow);
+          color: var(--offgreen);
           font-weight: bolder;
         }
       }

@@ -3,7 +3,8 @@
 :root{
 	--offgrey: #e0e0e0;
 	--black: #181818;
-	--offyellow: #e7dfb0;
+	--beige: #eae1d4;
+	--offgreen: #1f2820;
 }
 
 .cursor{
@@ -29,7 +30,7 @@
         width: 24px;
         height: 24px;
         transform: scale(0.2);
-        background: var(--offyellow);
+        background: var(--offgreen);
         border-radius: 50%;
     }
 
