@@ -1,3 +1,11 @@
+
+
+:root{
+	--offgrey: #e0e0e0;
+	--black: #181818;
+	--offyellow: #e7dfb0;
+}
+
 .cursor{
     position: fixed;
     top: 0;
@@ -21,7 +29,7 @@
         width: 24px;
         height: 24px;
         transform: scale(0.2);
-        background: black;
+        background: var(--offyellow);
         border-radius: 50%;
     }
 
